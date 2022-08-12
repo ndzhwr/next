@@ -10,6 +10,7 @@
     "serve": "npx json-server --watch ./data/db.json --port 3333"
   },
   "dependencies": {
+    "@prisma/client": "^4.2.1",
     "@types/cors": "^2.8.12",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
@@ -18,6 +19,7 @@
     "next": "12.2.3",
     "next-connect": "^0.13.0",
     "next-env": "^1.1.1",
+    "prisma": "^4.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

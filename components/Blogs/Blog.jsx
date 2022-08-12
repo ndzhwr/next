@@ -2,9 +2,10 @@ import Link from 'next/link'
 
 const Blog = (props) => {
     let content = "";
-    for (let i = 0; i < 100; i++) {
-        content += props.blogContent[i]
-
+    if (props.blogContent) {
+        for (let i = 0; i < 100; i++) {
+            content += props.blogContent[i]
+        }
     }
     content += "..."
     return (
