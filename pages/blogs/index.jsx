@@ -31,7 +31,7 @@ export async function getServerSideProps(context) {
 
 
     const res = await fetch('http://localhost:3333/blogs')
-    const  data   = await res.json()
+    const  data   = await res.json() 
 
     return {
         props: { data }
