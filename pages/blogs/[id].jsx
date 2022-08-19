@@ -1,5 +1,5 @@
-import useRouter from 'next/router'
-import { useState } from 'react';
+// import * as dotenv from 'dotenv'
+// dotenv.config()
 import Navbar from '../../components/UXperience/Navbar';
 
 export default ({ blog }) => {
